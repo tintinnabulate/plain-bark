@@ -1,8 +1,11 @@
 import React from 'react';
-import { Text } from '@chakra-ui/core';
+import { Text, Stack } from '@chakra-ui/core';
 
 export function Textual() {
   return (
-    <Text>To update information here, send an email to <a href="mailto:thevengo@gmail.com">thevengo@gmail.com</a></Text>
+<Stack>
+  <Text>To update a meeting here, visit <a href="https://aa-intergroup.org/contact/update-directory/">OIAA</a></Text>,
+  <Text>or <a href="https://aa-intergroup.org/oiaa/meetings/submit-meeting/">Submit a new meeting</a>.</Text>
+</Stack>
   );
 }
